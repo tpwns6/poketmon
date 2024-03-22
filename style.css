@@ -1,0 +1,780 @@
+/* 전체 페이지의 배경색 및 글꼴 설정 */
+body {
+  background-color: #f7f7f7; /* 배경색 */
+  font-family: Arial, sans-serif; /* 글꼴 */
+  color: #333; /* 글자색 */
+  padding: 20px; /* 페이지 내부 여백 */
+}
+
+/* 제목 스타일 */
+h1 {
+  color: #000000; /* 제목 글자색 */
+  text-align: center; /* 가운데 정렬 */
+  margin-bottom: 20px; /* 아래 여백 */
+}
+
+/* 이미지 스타일 */
+img {
+  display: block; /* 이미지를 블록 요소로 표시 */
+  margin: 0 auto; /* 가운데 정렬 */
+  max-width: 100%; /* 이미지의 최대 너비를 화면에 맞게 설정 */
+  height: auto; /* 너비에 맞추어 자동 조정 */
+  margin-bottom: 20px; /* 아래 여백 */
+}
+
+/* 목록 스타일 */
+ul {
+  list-style-type: none; /* 목록 마커 제거 */
+  padding: 0; /* 목록 내부 패딩 제거 */
+}
+
+/* 목록 아이템 스타일 */
+li {
+  margin-bottom: 10px; /* 각 목록 아이템의 아래 여백 */
+}
+
+/* 링크 스타일 */
+a {
+  text-decoration: none; /* 밑줄 제거 */
+  color: #d19ae4; /* 링크 색상 */
+}
+
+body {
+  font-family: Arial, sans-serif; /* 부드러운 글꼴로 변경 */
+}
+
+h1 {
+  font-size: 24px; /* 제목 크기 조정 */
+}
+
+p {
+  font-size: 16px; /* 본문 크기 조정 */
+}
+
+ul {
+  list-style-type: none; /* 목록 기호 제거 */
+}
+
+a {
+  text-decoration: none; /* 링크 밑줄 제거 */
+  color: blue; /* 링크 색상 변경 */
+}
+
+body {
+  font-family: Arial, sans-serif; /* 부드러운 글꼴 */
+}
+
+p {
+  font-size: 18px; /* 글꼴 크기 조정 */
+}
+body {
+  font-family: Arial, sans-serif; /* 부드러운 글꼴 */
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #9eacf0;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* 버튼 스타일 */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* 목록 스타일 */
+.button-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.button-list li {
+  margin-bottom: 10px;
+}
+
+.button {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: #ffffff; /* 배경색을 흰색으로 설정 */
+  color: #333333; /* 텍스트 색상을 어두운 회색으로 설정 */
+  border: 2px solid #333333; /* 테두리 색상을 어두운 회색으로 설정 */
+  border-radius: 6px;
+  margin-right: 10px; /* 각 버튼 사이의 간격을 설정 */
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.button:hover {
+  background-color: #333333; /* 호버 시 배경색을 어두운 회색으로 변경 */
+  color: #ffffff; /* 호버 시 텍스트 색상을 흰색으로 변경 */
+}
+
+/* 목록 스타일 */
+.button-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px; /* 목록 상단 여백 설정 */
+}
+
+.button-list li {
+  display: inline-block; /* 버튼을 가로로 배치 */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+}
+
+main section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  border-bottom: 2px solid #333;
+  padding-bottom: 5px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+}
+
+main section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  border-bottom: 2px solid #333;
+  padding-bottom: 5px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+}
+/* CSS (style.css) */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+}
+
+main section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  border-bottom: 2px solid #333;
+  padding-bottom: 5px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* 스타일링된 홈으로 돌아가기 링크 */
+.back-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  border: 2px solid #333;
+  color: #333;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.back-link:hover {
+  background-color: #333;
+  color: #fff;
+}
+/* CSS (style.css) */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+}
+
+main section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  border-bottom: 2px solid #333;
+  padding-bottom: 5px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* 스타일링된 홈으로 돌아가기 링크 */
+.back-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #333; /* 테두리 두께 변경 */
+  color: #333;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.back-link:hover {
+  background-color: #333;
+  color: #fff;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+}
+
+main section {
+  margin-bottom: 30px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #333;
+  color: #333;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.back-link:hover {
+  background-color: #333;
+  color: #fff;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header, footer {
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.description, .stats {
+  margin-bottom: 30px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.back-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #333;
+  color: #333;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.back-link:hover {
+  background-color: #333;
+  color: #fff;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header, footer {
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.description, .stats {
+  margin-bottom: 30px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.back-link {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.back-link:hover {
+  background-color: #45a049;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+header {
+  background-color: #fcfcfc;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+main {
+  padding: 20px;
+}
+
+.description, .stats, section {
+  margin-bottom: 30px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-top: 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.back-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  border: none;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.back-link:hover {
+  background-color: #45a049;
+}
+
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+main {
+  margin-bottom: 20px;
+}
+
+.description p {
+  line-height: 1.6;
+}
+
+.stats table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.stats th,
+.stats td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.stats th {
+  background-color: #f0f0f0;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  max-width: 100%;
+}
+
+footer {
+  text-align: center;
+}
+
+.back-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.back-link:hover {
+  background-color: #0056b3;
+}
+
+/* style.css */
+
+/* 버튼 스타일 */
+.navigation li {
+  display: inline;
+}
+
+.navigation li a {
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 1px solid #ccc; /* 테두리 얇게 설정 */
+  border-radius: 5px;
+  margin: 0 5px; /* 각 버튼 사이의 간격 조정 */
+}
+
+.navigation li a:hover {
+  background-color: #f0f0f0; /* 호버시 배경색 변경 */
+}
+
+/* style.css */
+
+/* 버튼 스타일 */
+.navigation li {
+  display: inline;
+}
+
+.navigation li a {
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 1px solid #ccc; /* 테두리 얇게 설정 */
+  border-radius: 5px;
+  margin: 0 5px; /* 각 버튼 사이의 간격 조정 */
+  color: #000; /* 텍스트 색상을 검은색으로 설정 */
+}
+
+.navigation li a:hover {
+  background-color: #f0f0f0; /* 호버시 배경색 변경 */
+}
+
+/* style.css */
+
+/* body와 html 요소의 높이를 100%로 설정하여 화면을 꽉 채움 */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* 컨테이너의 높이를 화면 전체 높이로 설정 */
+.container {
+  height: 100%;
+}
+
+/* 버튼 스타일 */
+.button-list {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.button-list li {
+  display: inline;
+}
+
+.button-list li a {
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 1px solid #ccc; /* 테두리 얇게 설정 */
+  border-radius: 5px;
+  margin: 0 5px; /* 각 버튼 사이의 간격 조정 */
+  color: #000; /* 텍스트 색상을 검은색으로 설정 */
+}
+
+.button-list li a:hover {
+  background-color: #f0f0f0; /* 호버시 배경색 변경 */
+}
+
+/* style.css */
+
+/* body와 html 요소의 높이를 100%로 설정하여 화면을 꽉 채움 */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* 컨테이너의 높이를 화면 전체 높이로 설정 */
+.container {
+  height: 100%;
+}
+
+/* 버튼 스타일 */
+.button-list {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.button-list li {
+  display: inline;
+}
+
+.button-list li a {
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 1px solid #ccc; /* 테두리 얇게 설정 */
+  border-radius: 5px;
+  margin: 0 5px; /* 각 버튼 사이의 간격 조정 */
+  color: #000; /* 텍스트 색상을 검은색으로 설정 */
+}
+
+.button-list li a:hover {
+  background-color: #f0f0f0; /* 호버시 배경색 변경 */
+}
+
+/* 제목 크기 조정 */
+h1 {
+  font-size: 36px; /* 예시로 36px로 설정 */
+}
+
+/* style.css */
+
+/* body와 html 요소의 높이를 100%로 설정하여 화면을 꽉 채움 */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif; /* 부드러운 폰트로 변경 */
+}
+
+/* 컨테이너의 높이를 화면 전체 높이로 설정 */
+.container {
+  height: 100%;
+}
+
+/* 버튼 스타일 */
+.button-list {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.button-list li {
+  display: inline;
+}
+
+.button-list li a {
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 1px solid #ccc; /* 테두리 얇게 설정 */
+  border-radius: 5px;
+  margin: 0 5px; /* 각 버튼 사이의 간격 조정 */
+  color: #000; /* 텍스트 색상을 검은색으로 설정 */
+  font-family: Arial, sans-serif; /* 부드러운 폰트로 변경 */
+}
+
+.button-list li a:hover {
+  background-color: #f0f0f0; /* 호버시 배경색 변경 */
+}
+
+/* 제목 크기 조정 */
+h1 {
+  font-size: 36px; /* 예시로 36px로 설정 */
+  font-family: Arial, sans-serif; /* 부드러운 폰트로 변경 */
+}
